@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .timetable {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .timetable-header,
+        .timetable-cell {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .timetable-header {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        .timetable-cell {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="timetable">
+            <div class="row">
+                <div class="col-sm timetable-header">Hour</div>
+                <div class="col-sm timetable-header">1</div>
+                <div class="col-sm timetable-header">2</div>
+                <div class="col-sm timetable-header">3</div>
+                <div class="col-sm timetable-header">Break</div>
+                <div class="col-sm timetable-header">4</div>
+                <div class="col-sm timetable-header">5</div>
+                <div class="col-sm timetable-header">6</div>
+            </div>
+            <div class="row">
+                <div class="col-sm timetable-header">Time/Day</div>
+                <div class="col-sm timetable-header">9:10-10:10</div>
+                <div class="col-sm timetable-header">10:10-11:10</div>
+                <div class="col-sm timetable-header">11:15-12:15</div>
+                <div class="col-sm timetable-header">12:15-13:00</div>
+                <div class="col-sm timetable-header">13:00-14:00</div>
+                <div class="col-sm timetable-header">14:00-15:00</div>
+                <div class="col-sm timetable-header">15:05-16:05</div>
+            </div>
+            
+            <!-- Row 1 -->
+            <div class="row">
+                <div class="col-sm timetable-header">MON</div>
+                <div class="col-sm timetable-cell">SE</div>
+                <div class="col-sm timetable-cell">FLAT</div>
+                <div class="col-sm timetable-cell">EAD</div>
+                <div class="col-sm timetable-cell fw-bold">L</div>
+                <div class="col-sm timetable-cell">PE-2</div>
+                <div class="col-sm timetable-cell">CN</div>
+                <div class="col-sm timetable-cell">ML</div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-sm timetable-header">TUE</div>
+                <div class="col-sm timetable-cell">PE-2</div>
+                <div class="col-sm-3 timetable-cell">CT Lab(B1) / ML Lab(B2)</div>
+                <div class="col-sm timetable-cell fw-bold">U</div>
+                <div class="col-sm timetable-cell">CN</div>
+                <div class="col-sm-3 timetable-cell">CC Lab(B1) / Library & Sports (B2)</div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="row">
+                <div class="col-sm timetable-header">WED</div>
+                <div class="col-sm timetable-cell">EAD</div>
+                <div class="col-sm timetable-cell">ML</div>
+                <div class="col-sm timetable-cell">CN LAB(B1) / EAD Lab(B2)</div>
+                <div class="col-sm timetable-cell fw-bold">N</div>
+                <div class="col-sm timetable-cell">CN LAB(B1) / EAD Lab(B2)</div>
+                <div class="col-sm timetable-cell">SE</div>
+                <div class="col-sm timetable-cell">FLAT</div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="row">
+                <div class="col-sm timetable-header">THU</div>
+                <div class="col-sm-3 timetable-cell">CT Lab(B2) / ML Lab(B1)</div>
+                <div class="col-sm timetable-cell">CN</div>
+                <div class="col-sm timetable-cell fw-bold">C</div>
+                <div class="col-sm timetable-cell">SE</div>
+                <div class="col-sm-3 timetable-cell">CN Lab(B2) / EAD Lab(B1)</div>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="row">
+                <div class="col-sm timetable-header">FRI</div>
+                <div class="col-sm timetable-cell">FLAT</div>
+                <div class="col-sm timetable-cell">ML</div>
+                <div class="col-sm timetable-cell">PE-2</div>
+                <div class="col-sm timetable-cell fw-bold">H</div>
+                <div class="col-sm-3 timetable-cell">CC Lab(B2) / Library & Sports (B1)</div>
+                <div class="col-sm timetable-cell">EAD</div>
+            </div>
+
+            <!-- Row 6 (Saturday) -->
+            <div class="row">
+                <div class="col-sm-12 timetable-header">SAT</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
